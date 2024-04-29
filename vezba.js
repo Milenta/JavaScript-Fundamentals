@@ -8,10 +8,22 @@
 // za svaku obradjenu hranu treba neko vreme. treba da izbaci ukupno vreme za ceo rucak
 
 const prepTime = function (food) {
-    if (food === 'kolac') { return 20 }
-    if (food === 'supa') { return 20 }
-    if (food === 'meso') { return 45 }
-    else { return 15 }
+    if (food === 'kolac') {
+        console.log('First if')
+        return 20
+    }
+    if (food === 'supa') {
+        console.log('Second if')
+        return 20
+    }
+    if (food === 'meso') {
+        console.log('Third if')
+        return 45
+    }
+    else {
+        console.log('Else statemant')
+        return 15
+    }
 }
 
 /************************************************************************
